@@ -1,0 +1,135 @@
+body {
+	background-color: #8FFFE4; 
+}
+h1 {
+	font-family: 'handlee', cursive;
+	font-size: 80px;
+	text-align: center;
+	color: #2E1046; }
+
+header {
+	width: 70%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+img {
+border: 3px dashed #6818A5;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+aside {
+	width: 30%;
+	float: right;
+	color: #2E1046;
+	background-color: #46BEC2;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	
+
+}
+
+aside h3 {
+	text-align: center;
+	font-family: 'handlee', cursive;
+	font-size: 25px;
+}
+
+aside p {
+	text-align: right;
+	font-family: 'Droid Serif', serif;
+	margin-right: 15px;
+}
+
+section {
+	clear: both;
+	padding-bottom: 30px;
+}
+
+article h4 {
+	font-family: 'handlee', cursive;
+	font-size: 25px; 
+	text-align: center;
+}
+
+#beauty {
+	font-family:'Droid Serif', serif;
+	background-color: #744D90;
+	color: #2E1046;
+	margin-left: 400px; 
+	margin-right: 400px;
+	border-radius: 5%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+}
+
+#mode {
+	font-family:'Droid Serif', serif;
+	color: #2E1046;
+	background-color: #8C3063;
+	margin-left: 400px; 
+	margin-right: 400px;
+	border-radius: 5%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#culture {
+	font-family:'Droid Serif', serif;
+	color: #2E1046;
+	background-color: #BB8CDD;
+	margin-left: 400px; 
+	margin-right: 400px;
+	border-radius: 5%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#food {
+	font-family:'Droid Serif', serif;
+	color: #2E1046;
+	background-color: #73345D;
+	margin-left: 400px; 
+	margin-right: 400px;
+	border-radius: 5%;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+#foot {
+	background-color: #46BEC2;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.clear {
+	clear:both;
+}
+
+.follow {
+	width: 50%;
+	float: left;
+	margin-top: -5px;
+	text-align: center;
+
+}
+
+.contact {
+	width: 50%;
+	float: right; 
+	margin-top: -5px;
+	text-align: center;
+}
+
+footer h5 {
+	font-size: 18px;
+
+}
+
