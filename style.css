@@ -24,6 +24,7 @@ border: 3px dashed #6818A5;
 	padding-right: 15px;
 	border: 3px dotted #0093B0;
 	margin-top: 50px;
+	border-radius: 5%;
 
 
 
@@ -49,6 +50,15 @@ article h4 {
 	text-align: center;
 }
 
+article a {
+	color: #2E1046;
+}
+
+article a:hover {
+	text-decoration: none;
+	color: #8FFFE4;
+}
+
 #beauty {
 	font-family:'Droid Serif', serif;
 	background-color: #DB639D;
@@ -60,17 +70,18 @@ article h4 {
 	margin-bottom: 30px;
 	margin-top: 40px;
 	text-align: center;
+	padding-top: 10px;
 
 }
 
 #mode {
 	font-family:'Droid Serif', serif;
-	color: #2E1046;
 	background-color: #AE9AD9;
 	border-radius: 5%;
 	text-align: center;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
+	padding-top: 10px;
 }
 
 #culture {
@@ -81,6 +92,7 @@ article h4 {
 	text-align: center;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
+	padding-top: 10px;
 }
 
 #food {
@@ -89,8 +101,9 @@ article h4 {
 	background-color: #F289AD;
 	border-radius: 5%;
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	margin-bottom: 10px;
+	padding-top: 10px;
 
 }
 
@@ -119,14 +132,14 @@ i {
 }
 
 footer a {
-	text-decoration: underline;
 	color: #8FFFE4;
 }
 
-a:hover {
+footer a:hover {
 	text-decoration: none;
 	color: #9C466F;
 }
+
 footer h5 {
 	font-size: 20px;
 }
