@@ -11,46 +11,36 @@ h1 {
 	padding-bottom: 30px;
 	 }
 
-header {
-	width: 70%;
-	float: left;
-	margin-bottom: 50px;
-}
-
-img {
+.monimage img {
 border: 3px dashed #6818A5;
-display: block;
-margin-left: auto;
-margin-right: auto;
 }
 
-aside {
-	width: 30%;
-	float: right;
+.madefinition {
 	color: #2E1046;
 	background-color: #46BEC2;
 	font-family: 'Droid Serif', serif;
-	padding-top: 5px;
-	padding-bottom: 15px;
-	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 15px;
+	border: 3px dotted #0093B0;
+	margin-top: 50px;
+
+
 
 }
 
-aside h3 {
+.madefinition h3 {
 	text-align: center;
-	font-family:'Droid Serif', serif;
 	font-size: 25px;
 }
 
-aside p {
+.madefinition p {
 	text-align: right;
-	font-family: 'Droid Serif', serif;
-	margin-right: 15px;
 }
 
 section {
-	clear: both;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
+	padding-top: 30px;
 }
 
 article h4 {
@@ -67,6 +57,9 @@ article h4 {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 10px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	text-align: center;
 
 }
 
@@ -74,33 +67,30 @@ article h4 {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
 	background-color: #AE9AD9;
-	margin-left: 400px; 
-	margin-right: 400px;
 	border-radius: 5%;
 	text-align: center;
 	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #culture {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
 	background-color: #9C466F;
-	margin-left: 400px; 
-	margin-right: 400px;
 	border-radius: 5%;
 	text-align: center;
 	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #food {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
 	background-color: #F289AD;
-	margin-left: 400px; 
-	margin-right: 400px;
 	border-radius: 5%;
 	text-align: center;
 	padding-bottom: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -141,23 +131,4 @@ footer h5 {
 	font-size: 20px;
 }
 
-@media (max-width:320px) {  /*small mobile*/
-  h1 {
-   
-  }
-}
-@media (min-width:321px) and (max-width:959px) {  /*tablet*/
-  h1 {
-  
-  }
-}
-@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
-h1 {
-  }
-}
-@media (min-width:1600px) {  /*desktop and tv*/
-  h1 {
-  	  
-  }
-}
 
