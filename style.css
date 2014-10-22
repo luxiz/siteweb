@@ -1,11 +1,15 @@
 body {
 	background-color: #8FFFE4; 
+	padding-bottom: 10px;
+	padding-top: 40px;
 }
 h1 {
 	font-family: 'handlee', cursive;
 	font-size: 80px;
 	text-align: center;
-	color: #2E1046; }
+	color: #2E1046;
+	padding-bottom: 30px;
+	 }
 
 header {
 	width: 70%;
@@ -26,7 +30,6 @@ aside {
 	color: #2E1046;
 	background-color: #46BEC2;
 	font-family: 'Droid Serif', serif;
-	font-style: italic;
 	padding-top: 5px;
 	padding-bottom: 15px;
 	
@@ -35,7 +38,7 @@ aside {
 
 aside h3 {
 	text-align: center;
-	font-family: 'handlee', cursive;
+	font-family:'Droid Serif', serif;
 	font-size: 25px;
 }
 
@@ -58,10 +61,8 @@ article h4 {
 
 #beauty {
 	font-family:'Droid Serif', serif;
-	background-color: #744D90;
+	background-color: #DB639D;
 	color: #2E1046;
-	margin-left: 400px; 
-	margin-right: 400px;
 	border-radius: 5%;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -72,7 +73,7 @@ article h4 {
 #mode {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
-	background-color: #8C3063;
+	background-color: #AE9AD9;
 	margin-left: 400px; 
 	margin-right: 400px;
 	border-radius: 5%;
@@ -83,7 +84,7 @@ article h4 {
 #culture {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
-	background-color: #BB8CDD;
+	background-color: #9C466F;
 	margin-left: 400px; 
 	margin-right: 400px;
 	border-radius: 5%;
@@ -94,7 +95,7 @@ article h4 {
 #food {
 	font-family:'Droid Serif', serif;
 	color: #2E1046;
-	background-color: #73345D;
+	background-color: #F289AD;
 	margin-left: 400px; 
 	margin-right: 400px;
 	border-radius: 5%;
@@ -105,8 +106,7 @@ article h4 {
 
 #foot {
 	background-color: #46BEC2;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .clear {
@@ -114,22 +114,50 @@ article h4 {
 }
 
 .follow {
-	width: 50%;
-	float: left;
-	margin-top: -5px;
 	text-align: center;
-
+	color: #8FFFE4;
 }
 
 .contact {
-	width: 50%;
-	float: right; 
-	margin-top: -5px;
 	text-align: center;
+	color: #8FFFE4;
+	
 }
 
-footer h5 {
-	font-size: 18px;
+i {
+	margin-left: 30px;
+}
 
+footer a {
+	text-decoration: underline;
+	color: #8FFFE4;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #9C466F;
+}
+footer h5 {
+	font-size: 20px;
+}
+
+@media (max-width:320px) {  /*small mobile*/
+  h1 {
+   
+  }
+}
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h1 {
+  
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+h1 {
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h1 {
+  	  
+  }
 }
 
