@@ -6,8 +6,11 @@ body {
 
 #heady{
 	background-color: #46BEC2;
+	color:#8FFFE4;
 	height: 50px;
 	margin-top: -20px;
+	text-align: center;
+	padding-top: 5px;
 }
 
 h1 {
@@ -17,7 +20,7 @@ h1 {
 	color: #2E1046;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	 }
+}
 
 .monimage img {
 border: 1px dashed #6818A5;
@@ -32,10 +35,7 @@ border: 1px dashed #6818A5;
 	padding-right: 15px;
 	border: 2px dotted #0093B0;
 	border-radius: 5%;
-	margin-top: 20px;
-
-
-
+	margin-top: 15px;
 }
 
 .madefinition h3 {
@@ -87,7 +87,6 @@ article a:hover {
 	margin-top: 40px;
 	text-align: center;
 	padding-top: 10px;
-
 }
 
 #mode {
@@ -120,7 +119,6 @@ article a:hover {
 	padding-bottom: 20px;
 	margin-bottom: 10px;
 	padding-top: 10px;
-
 }
 
 #foot {
@@ -139,12 +137,7 @@ article a:hover {
 
 .contact {
 	text-align: center;
-	color: #8FFFE4;
-	
-}
-
-h5 {
-	padding-left: 25px;
+	color: #8FFFE4;	
 }
 
 i {
@@ -162,6 +155,7 @@ footer a:hover {
 
 footer h5 {
 	font-size: 20px;
+	padding-left: 25px;
 }
 
 
