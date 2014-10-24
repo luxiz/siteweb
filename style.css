@@ -19,6 +19,12 @@ body {
 
 }
 
+.bouton a:hover{
+	text-decoration: none;
+	color: #46BEC2;
+
+}
+
 h1 {
 	font-family: 'handlee', cursive;
 	font-size: 90px;
